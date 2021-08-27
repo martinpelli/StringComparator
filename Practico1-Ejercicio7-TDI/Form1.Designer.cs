@@ -71,6 +71,7 @@ namespace Practico1_Ejercicio7_TDI
             this.compareButton.TabIndex = 3;
             this.compareButton.Text = "Comparar";
             this.compareButton.UseVisualStyleBackColor = true;
+            this.compareButton.Click += new System.EventHandler(this.compareButton_Click);
             // 
             // stringLabel
             // 
@@ -105,6 +106,7 @@ namespace Practico1_Ejercicio7_TDI
             this.Controls.Add(this.tittleLabel);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
